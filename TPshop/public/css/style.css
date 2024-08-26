@@ -1,0 +1,306 @@
+.show-hover{
+    display: none;
+ }
+ .hover-trigger:hover .show-hover{
+     display: block;
+ }
+ .badge-top{
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #C81E3A;
+    color: #fff;
+    font-weight: 900px;
+    text-align: center;
+    padding: 13px 0;
+    border-radius: 5px 5px 0 0;
+ }
+ .badge-top::after{
+    content: "";
+    display: block;
+    border-width: 0 25px 15px;
+    border-color: #ffff0000 #c81e3a;
+    border-style: solid;
+    bottom: -13px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+ }
+ header{
+   position: relative;
+}
+.shopping-mall{
+   position: absolute;
+   bottom: 20px;
+   font-variant: small-caps;
+}
+.shopping-mall>h1{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 50px;
+   color: white;
+   letter-spacing: 0.3px;
+   text-shadow: 0 0 2px black;
+   padding-bottom: 0px;
+   border-bottom: 1px dotted gray;
+   margin: 0px;
+}
+.shoppimg-mall>h5{
+   margin-top: 5px;
+   letter-spacing: 0.5px;
+}
+
+ .imgs-thumbnail{
+   height: 50px;
+   max-width: 95%;
+ }
+ img .thumbnail{
+   height: 300px;
+ }
+ .img-container {
+   position: relative;
+   max-width: 100%; /* Đảm bảo ảnh không vượt ra ngoài khung hiển thị */
+   overflow: hidden; /* Ẩn phần của ảnh vượt ra khỏi khung hiển thị */
+}
+
+.img-container img {
+   transition: transform 0.3s ease; /* Hiệu ứng chuyển động */
+}
+
+.img-container:hover img {
+   transform: scale(1.1); /* Phóng to ảnh khi hover */
+}
+.product-card {
+ border-radius: 10px;
+ overflow: hidden;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+ width: 100%;
+ height: auto;
+}
+.product-card img:hover {
+ transform: scale(1.1);
+}
+
+.gray-text{
+ color: gray;
+ font-size: 14px;
+}
+.zoom-effect-container {
+ overflow: hidden;
+}
+
+
+.zoom-effect img{
+ transition: transform 0.3s ease;
+}
+
+.zoom-effect:hover {
+ transform: scale(1.1);
+}
+.zoom-effect-container {
+ overflow: hidden;
+ max-width: 400px; /* Giới hạn kích thước của hình ảnh */
+ max-height: 300px; /* Giới hạn kích thước của hình ảnh */
+}
+.text-black:hover {
+ color: red;
+ text-decoration: none; /* Loại bỏ gạch chân */
+}
+.show-hover{
+ display: none;
+}
+.hover-trigger:hover .show-hover{
+ color: white;
+ background-color: #C81E3A;
+  display: block;
+}
+.badge-top{
+ width: 50px;
+ position: absolute;
+ top: 0;
+ left: 0px;
+ background: #C81E3A;
+ color: #fff;
+ font-weight: 900px;
+ text-align: center;
+ padding: 13px 0;
+ border-radius: 5px 5px 0 0;
+}
+.badge-top::after{
+ content: "";
+ display: block;
+ border-width: 0 25px 15px;
+ border-color: #ffff0000 #c81e3a;
+ border-style: solid;
+ bottom: -13px;
+ left: 0;
+ position: absolute;
+ width: 50px;
+}
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+header {
+   background-color: #8a1c2e;
+   color: #fff;
+   padding: 10px 0;
+   text-align: center;
+}
+.container{
+   width: 70%;
+   margin: 0 auto;
+}
+.container2{
+   width: 30%;
+   margin: 0 auto;
+}
+.col3{
+   width: 28%;
+   float: left;
+}
+.col9{
+   width: 70%;
+   float: right;
+}
+nav {
+   background-color: #8b2f2f;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+}
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+nav ul li {
+   display: inline;
+   margin-right: 20px;
+}
+nav ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+section {
+   padding: 20px;
+}
+table {
+   width: 100%;
+   border-collapse: collapse;
+}
+table, th, td {
+   border: 1px solid #ddd;
+   padding: 8px;
+   text-align: left;
+}
+th {
+   background-color: #f2f2f2;
+}
+.action-icons {
+   display: flex;
+   justify-content: space-around;
+}
+.action-icons a {
+   text-decoration: none;
+   color: #333;
+}
+.action-icons a:hover {
+   color: #ff0000;
+}
+form {
+   margin-top: 20px;
+}
+form input[type="text"],
+form input[type="submit"] {
+   padding: 10px;
+   margin-bottom: 10px;
+   width: 100%;
+   box-sizing: border-box;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+form input[type="submit"] {
+   background-color: #d34949;
+   color: #fff;
+   font-weight: bold;
+   font-size: 16px;
+}
+/* input file */
+input[type="file"] {
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 10px;
+   width: 100%;
+   box-sizing: border-box;
+   background-color: #f9f9f9;
+   transition: border-color 0.3s ease;
+   margin-bottom: 10px;
+}
+
+input[type="file"]:focus {
+   border-color: #00bcd4;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+   background-color: #00bcd4;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+   background-color: #0097a7;
+}
+
+/* Ẩn nút mặc định của trình duyệt */
+input[type="file"]::-webkit-file-upload-button {
+   visibility: hidden;
+}
+
+input[type="file"]::before {
+   content: 'Chọn ảnh'; /* Nhãn cho trường nhập */
+}
+/* dasboard */
+.grid {
+   display: grid;
+   grid-template-columns: 2fr 1fr 1fr;
+   grid-gap: 20px;
+   margin: 30px auto;
+}
+.card {
+   border: 1px solid #ccc;
+   padding: 20px;
+   background-color: #f9f9f9;
+}
+canvas {
+   width: 100%;
+}
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f8f9fa;
+}
+
+.card-title {
+   font-size: 1.25rem;
+}
+
+.card-text {
+   font-size: 0.9rem;
+}
+
+.pagination .page-link {
+   color: #007bff;
+}
+
+.pagination .page-link:hover {
+   background-color: #007bff;
+   color: #fff;
+}
